@@ -1,11 +1,350 @@
 :root{
-    
+  --accent-color: #4D5053;
+  --header-color: #292F36;
+  --button-color: #FFF;
+  --footer-color: #CDA274;
 }
-.banner-nav{
-    
+
+.nav-link{
+    color: var(--header-color);
+font-family: "Jost";
+font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.4px;
+}
+.nav-link:hover{
+    color: var(--footer-color);
+font-family: "Jost";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px; 
+letter-spacing: 0.4px;
 }
 
 
 
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-title{
+    color: var(--header-color);
+font-family: "DM Serif Display";
+font-size: 80px;
+font-weight: 400;
+line-height: 96px; 
+letter-spacing: 0.22px;
+}
+
+.hero-text{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+.hero-button{
+    color:var(--button-color);
+font-family: "Jost";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px; 
+letter-spacing: 0.72px;
+background-color: var(--header-color);
+stroke-width: 2px;
+}
 
 
+
+.advantages-title{
+    color:var(--header-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 39px; 
+letter-spacing: 0.22px;
+}
+
+.advantages-text{
+    color: var(--accent-color);
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+.advantages-view{
+    color: var(--accent-color);
+text-align: center;
+font-family:"Jost";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px; 
+letter-spacing: 0.36px;
+}
+
+
+
+.features-title{
+    color: var(--header-color);
+font-family: "DM Serif Display";
+font-size: 50px;
+font-weight: 400;
+line-height: 65px; 
+letter-spacing: 0.22px;
+}
+
+.features-text{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+.features-number{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 24px;
+font-weight: 400;
+line-height: 36px; 
+letter-spacing: 0.22px;
+}
+
+.features-name{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 36px; 
+letter-spacing: 0.22px;
+}
+
+
+
+.contact-title{
+    color: var(--header-color);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+
+    font-weight: 400;
+    line-height: 58.5px; 
+    letter-spacing: 0.22px;
+}
+
+.contact-name{
+    color: var(--header-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 37.5px; 
+letter-spacing: 0.22px;
+}
+
+.contact-place{
+    color: var(--accent-color);
+    font-family: "Jost";
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 27px; 
+    letter-spacing: 0.22px;
+}
+
+.contact-description{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px; 
+letter-spacing: 0.22px;
+}
+
+
+.room-title{
+    color: var(--header-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 47px;
+font-weight: 400;
+line-height: 62.4px; 
+letter-spacing: 0.22px;
+}
+
+.room-text{
+    color: var(--accent-color);
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.22px;
+}
+
+.room-name{
+    color: var(--header-color);
+font-family: "DM Serif Display";
+font-size: 24px;
+font-weight: 400;
+line-height: 37.5px; 
+letter-spacing: 0.22px;
+}
+
+.room-description{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+
+.project-text{
+    color: var(--footer-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 85px;
+font-weight: 400;
+line-height: 127.5px; 
+letter-spacing: 1.7px;
+}
+
+.project-description{
+    color: var(--accent-color);
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+
+.blog-title{
+    color: var(--header-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 48px;
+font-weight: 400;
+line-height: 62.4px;
+letter-spacing: 0.22px;
+}
+
+.blog-text{
+    color: var(--accent-color);
+    text-align: center;
+    font-family: "Jost";
+    font-size: 22px;
+
+    font-weight: 400;
+    line-height: 33px; 
+    letter-spacing: 0.22px;
+}
+
+.blog-description{
+    color: var(--header-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 35px; 
+letter-spacing: 0.5px;
+}
+
+.blog-time{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.22px;
+}
+
+.section-title{
+    color: FFF;
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 50px;
+font-weight: 400;
+line-height: 75px; 
+letter-spacing: 0.22px;
+}
+
+.section-text{
+    color: FFF;
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+.section-burron{
+    color: FFF;
+text-align: center;
+font-family: "Jost";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px; 
+letter-spacing: 0.22px;
+background-color: var(--footer-color);
+}
+
+.footer-description{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+.footer-title{
+    color: var(--header-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 37.5px;
+letter-spacing: 0.22px;
+}
+
+.list-item{
+    color: var(--accent-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+
+.end-text{
+    color: var(--accent-color);
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
+
+.end-span{
+    color: var(--footer-color);
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.22px;
+}
