@@ -400,7 +400,7 @@ margin-bottom: 71px;
     align-items: center;
 }
 
- .room-box:nth-child(1){
+ /* .room-box:nth-child(1){
    gap: 221px; 
 } 
 .room-box:nth-child(2){
@@ -409,7 +409,7 @@ margin-bottom: 71px;
  .room-box:nth-child(3){
     gap: 213px; 
  } 
- 
+  */
 
 
 .room-minibox{
@@ -419,6 +419,8 @@ display: inline-flex;
 justify-content: center;
 align-items: center;
 padding: 27px 30px;
+margin-left: auto;
+
 
 }
 
@@ -503,21 +505,30 @@ margin-bottom: 10px;
     background-color: var(--footer-color);
     justify-content: center;
 }
+
+.blog{
+    padding-top: 143px;
+    padding-bottom: 40px;
+   
+}
+
+
 .blog-list{
     display: flex;
-     
+     gap: 20px;
     flex-wrap: wrap;
+    row-gap: 40px;
 }
 .blog-item{
+    padding: 21px 18px 40px 18px;
+    flex-basis: calc((100% - 40px) / 3);
+    /* outline: 1px solid red; */
     border-radius: 62px;
-border: 1px solid #E7E7E7;
-padding: 21px 21px 40px 21px;
-margin-bottom: 40px;
+ border: 1px solid #E7E7E7; 
 }
 
 .blog-img{
-    width: 345px;
-height: 296px;
+   width: 100%;
 
 }
 
@@ -553,21 +564,28 @@ font-weight: 400;
 line-height: 35px; 
 letter-spacing: 0.5px;
 width: 334px;
+margin-bottom: 10px;
 }
-.blog-description:nth-child(2){
+.blog-item:nth-child(2)>.blog-description{
     width: 338px;
 }
-.blog-description:nth-child(3){
-    width: 337px;
+.blog-item:nth-child(3)>.blog-description{
+    width: 336px;
 }
-.blog-description:nth-child(4){
+.blog-item:nth-child(4)>.blog-description{
     width: 321px;
 }
-.blog-description:nth-child(5){
+.blog-item:nth-child(5)>.blog-description{
     width: 286px;
 }
-.blog-description:nth-child(6){
+.blog-item:nth-child(6)>.blog-description{
     width: 295px;
+}
+.blog-box{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .blog-time{
@@ -577,11 +595,14 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.22px;
-}
 
+}
+.desk{
+    text-align: center;
+}
 .desk>.container{
     background-color: var(--header-color);
-    padding: 100px 333px 95px 333px;
+    padding: 100px  95px ;
     border-radius: 50px;
 }
 
@@ -618,6 +639,7 @@ letter-spacing: 0.22px;
 padding: 21px 36px 23px 31px;
 border-radius: 15px;
 background-color: var(--footer-color);
+border: none;
 }
 
 .footer-description{
